@@ -1,0 +1,170 @@
+* {
+  font-family: "League Spartan", sans-serif;
+  font-size: 15px;
+}
+
+section {
+  background-color: hsl(0, 0%, 100%);
+}
+h1 {
+  color: hsl(300, 43%, 22%);
+  font-size: 2em;
+  text-align: center;
+  padding-top: 5vh;
+  margin: 1vh 12vw;
+}
+
+.star {
+  width: 12px;
+  height: 13px;
+}
+h2 {
+  color: hsl(303, 10%, 53%);
+  text-align: center;
+  margin: 1vh 6vw;
+  padding-top: 1vh;
+}
+
+.rating {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.starandrated {
+  background-color: hsl(300, 24%, 96%);
+  width: 85vw;
+  text-align: center;
+  margin-top: 2vh;
+  padding-top: 1vh;
+  border-radius: 10px;
+}
+
+h3 {
+  color: hsl(300, 43%, 22%);
+}
+.comments {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 4vh;
+}
+
+.commentX {
+  background-color: hsl(300, 43%, 22%);
+  width: 85vw;
+  margin-top: 2vh;
+  border-radius: 10px;
+}
+
+.imgandname {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2vh;
+}
+.imgandname > img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.name {
+  height: 50px;
+  margin: 0px 4vw;
+}
+h4 {
+  color: hsl(0, 0%, 100%);
+  position: absolute;
+  margin-top: 10px;
+}
+h5 {
+  color: hsl(333, 80%, 67%);
+  margin-top: 25px;
+}
+p {
+  color: hsl(0, 0%, 100%);
+  margin: 2vh 12vw;
+  margin-bottom: 4vh;
+}
+
+@media (min-width: 720px) {
+  section {
+  }
+  .toppart {
+    display: flex;
+    padding-top: 10vh;
+  }
+  .h1h2 {
+    width: 50vw;
+    padding-right: 1vw;
+    min-width: 372px;
+  }
+  h1 {
+    text-align: left;
+    font-size: 2.5em;
+    margin: 1vh 10vw 1vh 16vw;
+  }
+  h2 {
+    text-align: left;
+    margin: 4vh 4vw 1vh 16vw;
+  }
+  .rating {
+    width: 50vw;
+    align-items: normal;
+    padding-top: 5vh;
+    margin-right: 10vw;
+  }
+  .starandrated {
+    width: 33vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    min-width: 272px;
+  }
+  .starandrated1 {
+  }
+  .starandrated2 {
+    margin-left: 3vw;
+  }
+  .starandrated3 {
+    margin-left: 6vw;
+  }
+
+  h3 {
+    margin-left: 1vw;
+  }
+  .comments {
+    display: flex;
+    flex-direction: row;
+    align-items: normal;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    padding-top: 7vh;
+    width: 100wh;
+    justify-content: space-around;
+  }
+  .commentX {
+    width: 30vw;
+    height: 22vh;
+    max-width: 400px;
+  }
+
+  .comment2 {
+    margin-top: 4vh;
+    margin-left: 2vw;
+  }
+  .comment3 {
+    margin-top: 6vh;
+    margin-left: 2vw;
+  }
+
+  .name {
+    margin: 0px 2vw;
+  }
+
+  p {
+    margin: 1vh 2vw;
+    margin-bottom: 4vh;
+  }
+}
